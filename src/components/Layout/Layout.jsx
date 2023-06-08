@@ -14,6 +14,12 @@ const Layout = () => {
 
     const {pathname} = useLocation();
 
+    function charFirst(a){
+        return (
+            (a + "").charAt(0).toUpperCase()+a.substr(1)
+        )
+    }
+
     return (
         <div className={css.container}>
             <div>
@@ -30,7 +36,7 @@ const Layout = () => {
                 </div>
 
                 <div className={css.header}>
-                    <span>{moment().format("dddd, Do MMM YYYY")}</span>
+                    <span>{charFirst(moment().format("dddd Do MMM YYYY"))}</span>
                     <div className={css.searchBar}>
                         <BiSearch size={20} />
                         <input type="text" placeholder="Recherche" />
