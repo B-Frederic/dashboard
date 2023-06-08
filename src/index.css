@@ -1,6 +1,13 @@
 :root {
     --black: #111111;
+    --green: rgb(54, 234, 54);
+    --grey: rgba(255, 255, 255, 0.597);
     --orange: #ff805d;
+    --orange-gradient: linear-gradient(
+        268.35deg,
+        rgba(255, 70, 70, 0.99) 3.47%,
+        rgba(255, 114, 70, 0.99) 60.18%
+      );
 }
 
 * {
@@ -16,6 +23,12 @@
     background-color: var(--black);
     font-family: "Public Sans", sans-serif;
     overflow: hidden;
+}
+
+.theme-container {
+    padding: 2rem;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.59);
 }
 
 .gradient-red {
@@ -41,6 +54,18 @@
     background: #5dc9ff;
     filter: blur(90px);
 }
+
+.grey-container {
+    padding: 1.5rem 1rem;
+    border-top: 0.3px solid rgba(255, 255, 255, 0.185);
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.185);
+    background: linear-gradient(
+      90deg,
+      rgba(53, 53, 53, 0) 1.21%,
+      rgba(53, 53, 53, 0.46) 49.45%,
+      rgba(53, 53, 53, 0) 103.83%
+    );
+  }
 
 /* scrollbar */
 ::-webkit-scrollbar {

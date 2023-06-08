@@ -76,3 +76,15 @@
 .info{
     font-weight: bold;
 }
+
+.content{
+    display: flex;
+    height: 100%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.content>div{
+    width: 100%;
+    min-width: 75vh;
+}
