@@ -1,8 +1,21 @@
+// React
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// Pages
+import Dashboard from "./pages/Dashboard/Dashboard";
+// Components
+import Layout from "./components/Layout/Layout";
 
 const App = () => {
   return (
-    <div>
-      Test      
+    <div id="dashboard">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/> }>
+            <Route path="dashboard" element={<Dashboard/>} />
+          </Route>
+
+        </Routes>
+      </BrowserRouter>      
     </div>
   );
 };
