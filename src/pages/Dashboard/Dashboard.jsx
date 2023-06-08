@@ -1,10 +1,10 @@
+import css from "./Dashboard.module.css";
 
-const Home = () => {
+const Dashboard = () => {
     return (
-        <div className="container-dashboard">
-            
+        <div className={css.container}>
         </div>
     );
 };
 
-export default Home;
+export default Dashboard;
