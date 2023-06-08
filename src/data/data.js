@@ -1,4 +1,5 @@
 import moment from "moment/moment";
+import 'moment/locale/fr';
 
 export const cardsData = [
   {
@@ -61,7 +62,7 @@ export const groupNumber = (number) => {
 
 // Calendar
 let eventGuid = 0
-let todayStr = moment().format("DD-MM-YYYY")
+let todayStr = moment().format("YYYY-MM-DD")
 export const INITIAL_EVENTS = [
   {
     id: createEventId(),
@@ -71,27 +72,27 @@ export const INITIAL_EVENTS = [
   {
     id: createEventId(),
     title: "Événement",
-    start: moment(todayStr).add(1, "jours").format("DD-MM-YYYY") + "T16:00:00"
+    start: moment(todayStr).add(1, "days").format("YYYY-MM-DD") + "T16:00:00"
   },
   {
     id: createEventId(),
     title: "Rencontre",
-    start: moment(todayStr).add(2, "jours").format("DD-MM-YYYY") + "T20:00:00"
+    start: moment(todayStr).add(2, "days").format("YYYY-MM-DD") + "T20:00:00"
   },
   {
     id: createEventId(),
     title: "Réunion",
-    start: moment(todayStr).add(3, "jours").format("DD-MM-YYYY") + "T09:00:00"
+    start: moment(todayStr).add(3, "days").format("YYYY-MM-DD") + "T09:00:00"
   },
   {
     id: createEventId(),
     title: "Échéance paiement",
-    start: moment(todayStr).add(5, "jours").format("DD-MM-YYYY") + "T13:00:00"
+    start: moment(todayStr).add(5, "days").format("YYYY-MM-DD") + "T13:00:00"
   },
   {
     id: createEventId(),
     title: "Réunion d'équipe",
-    start: moment(todayStr).add(6, "jours").format("DD-MM-YYYY") + "T13:00:00"
+    start: moment(todayStr).add(6, "days").format("YYYY-MM-DD") + "T13:00:00"
   },
 ]
 

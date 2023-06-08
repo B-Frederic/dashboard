@@ -79,6 +79,7 @@
 
 .content{
     display: flex;
+    align-items: center;
     height: 100%;
     margin: auto;
     margin-top: 4rem;
