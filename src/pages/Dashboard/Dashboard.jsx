@@ -4,6 +4,7 @@ import css from "./Dashboard.module.css";
 import { cardsData, groupNumber } from "../../data/data";
 // Components
 import Statistics from "../../components/Statistics/Statistics";
+import Orders from "../../components/Orders/Orders";
 
 
 const Dashboard = () => {
@@ -42,9 +43,7 @@ const Dashboard = () => {
                <Statistics /> 
 
             </div>
-            <div className={css.orders}>
-            orders
-            </div>
+            <Orders />        
         </div>
     );
 };

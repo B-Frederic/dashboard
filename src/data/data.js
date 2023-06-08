@@ -26,25 +26,25 @@ export const cardsData = [
 export const ordersData = [
   {
     name: "Skateboard",
-    type: "Illustration",
+    type: "Détails",
     items: 58,
     change: 290,
   },
   {
     name: "Cours de langues",
-    type: "Illustration",
+    type: "Détails",
     items: 12,
     change: 72
   },
   {
     name: "Collaboration",
-    type: "Illustration",
+    type: "Détails",
     items: 7,
     change: 70
   },
   {
     name: "Robot",
-    type: "Illustration",
+    type: "Détails",
     items: 21,
     change: 15
   }
