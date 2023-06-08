@@ -9,6 +9,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import useCalendar from "../../store/Calendar";
 // Data
 import { createEventId } from "../../data/data";
+import { locale } from "moment";
 
 const Calendar = () => {
 
@@ -47,10 +48,11 @@ const Calendar = () => {
                 <FullCalendar
                 plugins={[dayGridPlugin, interactionPlugin, timeGridPlugin]}
                 headerToolbar={{
-                    left: "prev,next today",
+                    left: "prev,today,next",
                     center: "title",
-                    right: "dayGridMonth,timeGridWeek,timeGridDay"
+                    right: "dayGridMonth,timeGridWeek,timeGridDay",
                 }}
+                locale={"fr-FR"}
                 allDaySlot={false}
                 initialView="timeGridWeek"
                 slotDuration={"01:00:00"}
