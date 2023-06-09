@@ -7,6 +7,7 @@ import Layout from "./components/Layout/Layout";
 import Calendar from "./pages/Calendar/Calendar";
 import Kanban from "./pages/Kanban/Kanban";
 import UserList from "./pages/UserList/UserList";
+import Error from "./pages/Error/Error";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="taches" element={<Kanban/>} />
             <Route path="utilisateur" element={<UserList/>} />
           </Route>
+          <Route path="/*" element={<Error/>} />
         </Routes>
       </BrowserRouter>      
     </div>
