@@ -18,7 +18,7 @@ const Sidebar = () => {
                 <NavLink to="calendrier" className={css.item} title={"Calendrier"}>
                     <AiFillCalendar size={30} />
                 </NavLink>
-                <NavLink to="tache" className={css.item} title={"Tâche"}>
+                <NavLink to="taches" className={css.item} title={"Tâche"}>
                     <FaTasks size={30} />
                 </NavLink>
                 <NavLink to="utilisateur" className={css.item} title={"Utilisateurs"}>

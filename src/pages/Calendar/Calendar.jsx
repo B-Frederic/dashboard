@@ -1,5 +1,5 @@
-// Style
-import css from "./Calendar.css";
+// Style CSS default for design library 
+import "./Calendar.css";
 // Calendar
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
