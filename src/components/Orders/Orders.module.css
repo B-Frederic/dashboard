@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 2rem;
     width: 30%;
+    height: 83%;
 }
 
 .head{
@@ -49,7 +50,7 @@
 }
 
 .order>:nth-child(2){
-    margin-bottom: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 .order>:nth-child(1)>:nth-child(1){
