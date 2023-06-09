@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container>:nth-child(1)>span{
+    font-size: 3rem;
+    font-weight: bold;
+}
