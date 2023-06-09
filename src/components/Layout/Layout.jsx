@@ -37,10 +37,6 @@ const Layout = () => {
 
                 <div className={css.header}>
                     <span>{charFirst(moment().format("dddd Do MMM YYYY"))}</span>
-                    <div className={css.searchBar}>
-                        <BiSearch size={20} />
-                        <input type="text" placeholder="Recherche" />
-                    </div>
                     <div className={css.profile}>
                         <img src="./assets/img/moi.png" alt="image utilisateur" />
                         <div className={css.info}>

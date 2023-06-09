@@ -1,5 +1,3 @@
-// Style
-import css from "./StatisticsChart.module.css";
 // Chart
 import ReactECharts from "echarts-for-react";
 import * as echarts from "echarts";

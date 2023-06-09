@@ -9,7 +9,6 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import useCalendar from "../../store/Calendar";
 // Data
 import { createEventId } from "../../data/data";
-import { locale } from "moment";
 
 const Calendar = () => {
 

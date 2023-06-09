@@ -36,9 +36,7 @@ const Statistics = () => {
                     <span>{groupNumber(20000)}€</span>
                 </div>
             </div>
-
             <StatisticsChart />
-
         </div>
     );
 };

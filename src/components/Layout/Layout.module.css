@@ -37,33 +37,10 @@
     font-size: 1.2rem;
 }
 
-.searchBar{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    height: 2rem;
-    width: 30%;
-    max-width: 25rem;
-    padding: 1rem;
-    border: 2px solid rgb(63, 63, 63);
-    border-radius: 0.5rem;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.searchBar>input{
-    width: 100%;
-    padding: 0;
-    color: #fff;
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
 .profile{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     gap: 0.5rem;
 }
 
@@ -81,7 +58,7 @@
     display: flex;
     height: 100%;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .content>div{
