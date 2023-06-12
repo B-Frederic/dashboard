@@ -12,7 +12,6 @@ const AddCardModal = ({ visible, onClose, handleCardAdd }) => {
     const customStyles = {
         height: "fit-content",
         width: "50%",
-        maxWidth: "40rem",
         top: "-3rem",
         padding: "20px",
         background: "rgb(58 58 58)",

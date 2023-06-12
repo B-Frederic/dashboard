@@ -12,16 +12,16 @@ const Sidebar = () => {
             <img src="./assets/img/logo.png" alt="logo" className={css.logo} />
 
             <div className={css.menu}>
-                <NavLink to="dashboard" className={css.item} title={"Dashboard"}>
+                <NavLink to="/" className={css.item}>
                     <MdSpaceDashboard size={30} />
                 </NavLink>
-                <NavLink to="calendrier" className={css.item} title={"Calendrier"}>
+                <NavLink to="/calendrier" className={css.item}>
                     <AiFillCalendar size={30} />
                 </NavLink>
-                <NavLink to="taches" className={css.item} title={"Tâche"}>
+                <NavLink to="/taches" className={css.item}>
                     <FaTasks size={30} />
                 </NavLink>
-                <NavLink to="utilisateur" className={css.item} title={"Utilisateurs"}>
+                <NavLink to="/utilisateurs" className={css.item}>
                     <AiOutlineTable size={30} />
                 </NavLink>
             </div>
